@@ -21,8 +21,8 @@ console.log(x, a);
 const arrow = (y) => y + 1;
 arrow(2);
 
-const obj = {
-	name: 'Alex',
-};
+// const obj = {
+// 	name: 'Alex',
+// };
 
-const { name } = obj;
+// const { name } = obj;
