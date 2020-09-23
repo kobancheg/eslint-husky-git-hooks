@@ -6,14 +6,7 @@
   },
   "extends": ["airbnb/base"],
   "rules": {
-    "no-console": "warn",
-    "no-plusplus": "off",
-    "eol-last": "off",
-    "max-len": ["error", 150, { "ignoreUrls": true }],
-    "no-tabs": "warn",
-    "no-alert": "warn",
     "prefer-destructuring": "warn",
-    "indent": [2, "tab"],
-    "no-param-reassign": "warn"
+    "quotes": ["error", "single"]
   }
 }

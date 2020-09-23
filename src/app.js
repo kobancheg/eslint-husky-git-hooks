@@ -1,28 +1,18 @@
-/* eslint-disable no-console */
 const a = 1;
 
 function foo(name) {
-	const lastName = name;
-	name = 1;
-	return lastName;
+  const lastName = name;
+  return lastName;
 }
-let x = 200;
 
-x++;
+const x = '200';
 
-foo('Denis');
-console.log(window);
+foo('Aleksey');
 
-// eslint-disable-next-line no-console
 console.log(x, a);
 
-// qwrqewitjqwoijqwdopijqwdqowdjgq[owdgjqow[gjqowgjqowgjqowidjgqodijwtuetuwretiyrqiughsdjfhgasdjhgajsdgfajhskdgkajghsskajgakhj]]
+function arrow(y) {
+  return y + 1;
+}
 
-const arrow = (y) => y + 1;
-arrow(2);
-
-// const obj = {
-// 	name: 'Alex',
-// };
-
-// const { name } = obj;
+arrow();
